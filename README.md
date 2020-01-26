@@ -1,4 +1,4 @@
-# H1 Forritun-Haust-2020
+# Forritun-Haust-2020
 
 ![Alt Text](https://media.giphy.com/media/26hiu3mZVquuykwhy/giphy.gif)
 
