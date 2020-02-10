@@ -46,14 +46,15 @@ else:
 
 #=========================================Skákborð====================================================
 
-x = np.zeros((8, 8), dtype = int)
-
-x[1::2, ::2] = 1
-x[::2, 1::2] = 1
-
-for i in range(8):
-    for j in range(8):
-        print(x[i][j], end="")
-    print()
+staerd = 8
+row = ""
+for i in range(staerd):
+    row = ""
+    for j in range(staerd):
+        if ((i + j) % 2) != 0:
+            row += 'H'
+        else:
+            row += 'S'
+    print(row)
 
 
